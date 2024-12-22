@@ -1,0 +1,120 @@
+body{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+table{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.FieldTr{
+    height: 50px;
+    display: flex;
+}
+td{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2px 2px 2px 2px;
+    background-color: rgb(205, 205, 205);
+}
+
+button{
+    font-size: 25px;
+}
+#NewGameButton{
+    border: 2px solid black;
+    padding: 3px 7px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#NewGameButton:hover{
+    background-color: rgb(201, 201, 201);
+}
+.Field{
+    background-image: url(resources/Closed.png);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    aspect-ratio: 1/1;
+    user-select: none;
+}
+
+#TopPanel{
+    border-bottom: 1px solid black;
+    background-color: rgb(225, 225, 225);
+    position: relative;
+}
+#MenuContainer {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#TopContainer {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.TopButtons{
+    border: 1px solid black;
+    padding: 2px 3px;
+}
+.TopButtons:hover{
+    background-color: rgb(201, 201, 201);
+}
+#TimerP, #FlagLeftP {
+    margin: 0px;
+    margin-top: 20px;
+}
+#EndGameP{
+    font-size: 20px;
+    margin: 4px 0px;
+    font-weight: bold;
+}
+.lineBreak{
+    width: 100%;
+    height: 0px;
+}
+#DifficultyPopup{
+    background-color: rgb(225, 225, 225);
+    position: absolute;
+    left: 50%;
+    top: 7%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    padding: 5px 5px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 2;
+}
+.popupButton{
+    margin-top: 10px;
+    background-color: rgb(225, 225, 225);
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.popupButton:hover{
+    background-color: rgb(201, 201, 201);
+}
+#Load{
+    position: absolute;
+    background-color: rgb(225, 225, 225);
+    border: 2px solid black;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
